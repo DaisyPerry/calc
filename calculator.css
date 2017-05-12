@@ -1,87 +1,61 @@
 body {
-	background-color: #DC143C; 
-	font-family: 'Droid Serif', serif;
-}
+  background-color: #DC143C;
+  font-family: 'Droid Serif', serif; }
 
-#calculator{
-	width: 65%;
-	margin-bottom: 20%;
-	margin-top: 5%;
-	margin-left: 17.5%;
-	margin-right: 17.5%;
-}
+#calculator {
+  width: 65%;
+  margin-bottom: 20%;
+  margin-top: 5%;
+  margin-left: 17.5%;
+  margin-right: 17.5%; }
 
-#answer{
-	background-color: black;
-	opacity: 25%;
-	height: 100px;
-	width: 100%;
-	font-family: 'VT323', monospace;
-	color: #00FF00;
-	text-align: center;
-	padding-top: 20px;
-	padding-right: 14px;
-	font-size: 50pt;
-	border-width: 5%;
-	border-right-width: 10%;
-}
+#answer {
+  background-color: black;
+  opacity: 25%;
+  height: 100px;
+  width: 100%;
+  font-family: 'VT323', monospace;
+  color: #00FF00;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 14px;
+  font-size: 50pt;
+  border-width: 5%;
+  border-right-width: 10%; }
 
-#buttonbox{
-	background-color: #8FBC8F;
-	border-style: solid;
-	border-width: 7px;
-	font-family: 'Droid Serif', serif;
-	width: 100%;
-	height: 100%;
-}
+#buttonbox {
+  background-color: #8FBC8F;
+  border-style: solid;
+  border-width: 7px;
+  font-family: 'Droid Serif', serif;
+  width: 100%;
+  height: 100%; }
 
 #buttons {
-	margin-left: 7%;
-	margin-bottom: 3%;
-	margin-top: 3%;
-	margin-right: 7% 
-}
+  margin-left: 7%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  margin-right: 7%; }
 
 .btn {
-	height: 65px;
-	width: 120px;
-	border-width: 5pt;
-	border-style: solid black ;
-	font-family: 'Droid Serif', serif;
-	background-color: #90EE90;
-	border-color: #98FB98;
-	font-size: 20pt;
-	margin: 1% 1% 1% 1%;
-}
+  height: 65px;
+  width: 120px;
+  border-width: 5pt;
+  border-style: solid black;
+  font-family: 'Droid Serif', serif;
+  background-color: #90EE90;
+  border-color: #98FB98;
+  font-size: 20pt;
+  margin: 1% 1% 1% 1%; }
+  .btn .op {
+    height: 65px;
+    width: 85px; }
 
-.op {
-	height: 65px;
-	width: 85px;
-	border-width: 5pt;
-	border-style: solid black ;
-	font-family: 'Droid Serif', serif;
-	background-color: #90EE90;
-	border-color: #98FB98;
-	font-size: 20pt;
-	margin: 1% 1% 1% 1%;
-}
-
-#enter, #clear{
-	height: 65px;
-	width: 120px;
-	border-width: 5pt;
-	border-style: solid black ;
-	font-family: 'Droid Serif', serif;
-	background-color: #90EE90;
-	border-color: #98FB98;
-	font-size: 20pt;
-	margin: 1% 1% 1% 1%;
-}
-
-#social{
-  width:100%;
-  text-align:center;
+#social {
+  width: 100%;
+  text-align: center;
   height: 30%;
   margin-bottom: 5%;
-  margin-top: 5%;
-}
+  margin-top: 5%; }
+
+/*# sourceMappingURL=calculator.css.map */
