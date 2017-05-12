@@ -1,3 +1,13 @@
+@mixin button-standards {
+	border-width: 5pt;
+	border-style: solid black ;
+	font-family: 'Droid Serif', serif;
+	background-color: #90EE90;
+	border-color: #98FB98;
+	font-size: 20pt;
+	margin: 1% 1% 1% 1%;
+}
+
 body {
 	background-color: #DC143C; 
 	font-family: 'Droid Serif', serif;
@@ -45,17 +55,13 @@ body {
 .btn {
 	height: 65px;
 	width: 120px;
-	border-width: 5pt;
-	border-style: solid black ;
-	font-family: 'Droid Serif', serif;
-	background-color: #90EE90;
-	border-color: #98FB98;
-	font-size: 20pt;
-	margin: 1% 1% 1% 1%;
-		.op {
-			height: 65px;
-			width: 85px;
-		}
+	@include button-standards;
+}
+
+.op {
+	height: 65px;
+	width: 85px;
+	@include button-standards;
 }
 
 #social{
