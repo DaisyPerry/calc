@@ -6,16 +6,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 </head>
 <body>
 
 	<div id="calculator">
 
 		
-			<div id="answer">
+		<div id="answer">
 			
-			</div>
+		</div>
 	
 
 		<div id="buttonbox">
@@ -37,24 +36,25 @@
 			<button class="btn" id="nine">9</button> 
 			<button class="btn" id="zero">0</button>
 
-			<div class="operands">
+				<div class="operands">
 
-			<button class="op" id="subtract">-</button>
-			<button class="op" id="add">+</button>
-			<button class="op" id="divide">/</button>
-			<button class="op" id="multiply">*</button>
-			<button class="op" id="enter">=</button>
-			<button class="op" id="clear">C</button> 
-			<!-- <a href="https://suicidepreventionlifeline.org/"><button class="btn" id="help">help</button></a> -->
-			<!-- <button id="doggo"><center><img id="pom" src="pompom.png"></center></button> -->
-			</div>
+				<button class="op" id="subtract">-</button>
+				<button class="op" id="add">+</button>
+				<button class="op" id="divide">/</button>
+				<button class="op" id="multiply">*</button>
+				<button class="op" id="enter">=</button>
+				<button class="op" id="clear">C</button> 
+			
+				</div>
 			
 			</div>
 		</div>
 	</div>
 
 	<div id="social">	
-		<a href="https://github.com/DaisyPerry"><img src="gh.png" id="gh" alt="Github"></a>
+		<a href="https://github.com/DaisyPerry">
+			<img src="gh.png" id="gh" alt="Github">
+		</a>
 	</div>
 
 <script type="text/javascript">
@@ -239,32 +239,20 @@ $("#multiply").on("click", function(){
 
 });
 
-$("#doggo").on("click", function(){
-
-	var btn = $("#doggo").html()
-
-	components += btn;
-
-	$("#answer").html(components.split());
-
-	console.log(components);
-
-
-});
 
 $("#enter").on("click", function(){
 
-var answer = (eval(components));
+	var answer = (eval(components));
 
-$("#answer").html(answer);
+	$("#answer").html(answer);
 
 	
 });
 
 $("#clear").on("click", function(){
 
-$("#answer").empty()
-components = [];
+	$("#answer").empty()
+	components = [];
 	
 });
 
