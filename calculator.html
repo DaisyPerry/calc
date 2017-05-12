@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doggolator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<div id="calculator">
+
+		
+			<div id="answer">
+			
+			</div>
+	
+
+		<div id="buttonbox">
+
+		
+			<div id="buttons">
+
+			<button class="btn" id="one">1</button>
+			<button class="btn" id="two">2</button>
+			<button class="btn" id="three">3</button> 
+			<button class="btn" id="four">4</button>
+
+			
+			<button class="btn" id="five">5</button> 
+			<button class="btn" id="six">6</button> 
+			<button class="btn" id="seven">7</button>
+			<button class="btn" id="eight">8</button>
+
+			<button class="btn" id="nine">9</button> 
+			<button class="btn" id="zero">0</button>
+
+			<div class="operands">
+
+			<button class="op" id="subtract">-</button>
+			<button class="op" id="add">+</button>
+			<button class="op" id="divide">/</button>
+			<button class="op" id="multiply">*</button>
+			<button class="op" id="enter">=</button>
+			<button class="op" id="clear">C</button> 
+			<!-- <a href="https://suicidepreventionlifeline.org/"><button class="btn" id="help">help</button></a> -->
+			<!-- <button id="doggo"><center><img id="pom" src="pompom.png"></center></button> -->
+			</div>
+			
+			</div>
+		</div>
+	</div>
+
+	<div id="social">	
+		<a href="https://github.com/DaisyPerry"><img src="gh.png" id="gh" alt="Github"></a>
+	</div>
+
+<script type="text/javascript">
+
+var components = [];
+
+
+$("#one").on("click", function(){
+
+	var btn = $("#one").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+});
+
+$("#two").on("click", function(){
+
+	var btn = $("#two").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+});
+
+$("#three").on("click", function(){
+
+	var btn = $("#three").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#four").on("click", function(){
+
+	var btn = $("#four").html()
+	
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#five").on("click", function(){
+
+	var btn = $("#five").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#six").on("click", function(){
+
+	var btn = $("#six").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#seven").on("click", function(){
+
+	var btn = $("#seven").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+});
+
+$("#eight").on("click", function(){
+
+	var btn = $("#eight").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#nine").on("click", function(){
+
+	var btn = $("#nine").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#zero").on("click", function(){
+
+	var btn = $("#zero").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#add").on("click", function(){
+
+	var btn = $("#add").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#subtract").on("click", function(){
+
+	var btn = $("#subtract").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#divide").on("click", function(){
+
+	var btn = $("#divide").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#multiply").on("click", function(){
+
+	var btn = $("#multiply").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#doggo").on("click", function(){
+
+	var btn = $("#doggo").html()
+
+	components += btn;
+
+	$("#answer").html(components.split());
+
+	console.log(components);
+
+
+});
+
+$("#enter").on("click", function(){
+
+var answer = (eval(components));
+
+$("#answer").html(answer);
+
+	
+});
+
+$("#clear").on("click", function(){
+
+$("#answer").empty()
+components = [];
+	
+});
+
+</script>
+
+</body>
+</html>
