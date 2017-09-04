@@ -1,13 +1,16 @@
 body {
   background-color: #DC143C;
-  font-family: 'Droid Serif', serif; }
+  font-family: 'Droid Serif', serif; 
+}
 
 #calculator {
   width: 65%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   margin-top: 5%;
   margin-left: 17.5%;
-  margin-right: 17.5%; }
+  margin-right: 17.5%; 
+  height: 37%;
+}
 
 #answer {
   background-color: black;
@@ -21,7 +24,8 @@ body {
   padding-right: 14px;
   font-size: 50pt;
   border-width: 5%;
-  border-right-width: 10%; }
+  border-right-width: 10%; 
+}
 
 #buttonbox {
   background-color: #8FBC8F;
@@ -29,41 +33,58 @@ body {
   border-width: 7px;
   font-family: 'Droid Serif', serif;
   width: 100%;
-  height: 100%; }
+  height: 100%; 
+}
 
 #buttons {
-  margin-left: 7%;
+  margin-left: 3%;
   margin-bottom: 3%;
   margin-top: 3%;
-  margin-right: 7%; }
+  margin-right: 3%; 
+  height: 400;
+}
 
 .btn {
   height: 65px;
-  width: 120px;
+  width: 110px;
   border-width: 5pt;
   border-style: solid black;
   font-family: 'Droid Serif', serif;
   background-color: #90EE90;
   border-color: #98FB98;
   font-size: 20pt;
-  margin: 1% 1% 1% 1%; }
+  margin: 1% 1% 1% 1%; 
+}
 
 .op {
   height: 65px;
-  width: 85px;
+  width: 78px;
   border-width: 5pt;
   border-style: solid black;
   font-family: 'Droid Serif', serif;
   background-color: #90EE90;
   border-color: #98FB98;
   font-size: 20pt;
-  margin: 1% 1% 1% 1%; }
+  margin: 1% 1% 1% 1%; 
+}
+
+.operands {
+  height: 100%;
+  width: 100%;
+}
 
 #social {
   width: 100%;
   text-align: center;
   height: 30%;
   margin-bottom: 5%;
-  margin-top: 5%; }
+  margin-top: 5%; 
+}
+
+img#octocat {
+   height: 300px;
+   width: 300px;
+
+}
 
 /*# sourceMappingURL=calculator.css.map */
